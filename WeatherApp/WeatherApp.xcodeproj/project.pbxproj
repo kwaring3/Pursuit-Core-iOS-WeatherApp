@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F58436421F916ED00B6DFF5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F58436321F916ED00B6DFF5 /* DetailViewController.swift */; };
+		1F58436621F9170100B6DFF5 /* SavedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F58436521F9170100B6DFF5 /* SavedViewController.swift */; };
 		57EE008E21F15D7000D76A6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE008D21F15D7000D76A6E /* AppDelegate.swift */; };
 		57EE009021F15D7000D76A6E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57EE008F21F15D7000D76A6E /* ViewController.swift */; };
 		57EE009321F15D7100D76A6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57EE009121F15D7100D76A6E /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F58436321F916ED00B6DFF5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		1F58436521F9170100B6DFF5 /* SavedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedViewController.swift; sourceTree = "<group>"; };
 		57EE008A21F15D7000D76A6E /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57EE008D21F15D7000D76A6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57EE008F21F15D7000D76A6E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +85,8 @@
 			children = (
 				57EE009F21F15E0F00D76A6E /* ZipCodeHelper.swift */,
 				57EE008F21F15D7000D76A6E /* ViewController.swift */,
+				1F58436321F916ED00B6DFF5 /* DetailViewController.swift */,
+				1F58436521F9170100B6DFF5 /* SavedViewController.swift */,
 				57EE009121F15D7100D76A6E /* Main.storyboard */,
 				57EE00AF21F160D400D76A6E /* Supporting Files */,
 				57EE009921F15D7100D76A6E /* Info.plist */,
@@ -211,6 +217,8 @@
 				57EE00A021F15E0F00D76A6E /* ZipCodeHelper.swift in Sources */,
 				57EE009021F15D7000D76A6E /* ViewController.swift in Sources */,
 				57EE008E21F15D7000D76A6E /* AppDelegate.swift in Sources */,
+				1F58436621F9170100B6DFF5 /* SavedViewController.swift in Sources */,
+				1F58436421F916ED00B6DFF5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,11 +14,35 @@ class ViewController: UIViewController {
     @IBOutlet weak var zipCodeLabel: UILabel!
     @IBOutlet weak var textField: UITextField!
     @IBOutlet weak var collectionView: UICollectionView!
+    
+    private var weatherInfo = [PeriodsWrapper]() {
+        
+    }
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view, typically from a nib.
+    collectionView.dataSource = self
+    collectionView.delegate = self
+    WeatherAndImageAPIClient.searchCityWeather(zipCode: 11233) { (appError?, [PeriodsWrapper]?) in
+        if let appError = appError{
+            print(appError.errorMessage())
+        } else if let magicCards = magicCards{
+            self.magicCards = magicCards
+        }
+    }
   }
 
 
+}
+
+extension ViewController: UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        <#code#>
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        <#code#>
+    }
+    
+    
 }
 
